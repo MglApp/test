@@ -18,8 +18,7 @@ jobs:
 
           // List your public Tomcat server URLs here
           const tomcatServers = [
-            "http://public-ip-or-domain1:8080/healthcheck",
-            "http://public-ip-or-domain2:8080/healthcheck"
+            "https://mgltest.mahanagargas.com:8443/"
           ];
 
           async function checkServers() {
